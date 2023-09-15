@@ -22,6 +22,10 @@ const Home = () => {
                 hour = hour + item.creditHour;
             });
             const totalDueHour = 20 - hour;
+
+            if(hour > 20){
+              return  alert ('ok')
+            }
             setDueHour(totalDueHour);
             setTotalHour(hour);
 
