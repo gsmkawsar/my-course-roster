@@ -21,7 +21,7 @@ const Card = ({handelSelect}) => {
          <div className=" p-3 w-72 bg-base-100 shadow-xl">
         <figure><img className="rounded-lg mb-2" src={card.image} alt="Shoes" /></figure>
         <div className="">
-            <h2 className="text-left text-1xl font-bold mb-2">{name}</h2>
+            <h2 className="text-left text-1xl font-bold mb-2">{card.name}</h2>
             <p className="text-left">{card.para}</p>
             <div className="flex justify-between my-2 border-black	p-3">
             <div><p><FaBeer></FaBeer> Price : {card.price}</p></div>
