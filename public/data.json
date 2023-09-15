@@ -1,74 +1,75 @@
 [
+
     {
       "id": 1,
-      "image": "https://cdn.bestflashfile.com/wp-content/uploads/2022/12/FRP-Bypass-APK-File.webp",
+      "image": "https://i.ibb.co/SJLxJ38/Rectangle-2-2.png",
       "name": "Introduction to C Programming",
       "para": "Enjoy exclusive access to our premium services with the Gold Membership Card.",
       "price": 15000,
-      "credit-hour": 1
+      "creditHour": 1
     },
     {
       "id": 2,
-      "image": "https://cdn.bestflashfile.com/wp-content/uploads/2022/12/FRP-Bypass-APK-File.webp",
+      "image": "https://i.ibb.co/Nt0tbkJ/Rectangle-2-3.png",
       "name": "Introduction to Algorithms",
       "para": "Experience the benefits of our Silver Membership Card, offering a range of perks.",
       "price": 25000,
-      "credit-hour": 2
+      "creditHour": 2
     },
     {
       "id": 3,
-      "image": "https://cdn.bestflashfile.com/wp-content/uploads/2022/12/FRP-Bypass-APK-File.webp",
+      "image": "https://i.ibb.co/hdMC2sB/Rectangle-2-4.png",
       "name": "Introduction to C++ for DSA",
       "para": "Upgrade to the Platinum Membership Card for the ultimate VIP experience.",
       "price": 10000,
-      "credit-hour": 10
+      "creditHour": 10
     },
     {
       "id": 4,
-      "image": "https://cdn.bestflashfile.com/wp-content/uploads/2022/12/FRP-Bypass-APK-File.webp",
+      "image": "https://i.ibb.co/K5yrLqM/Rectangle-3.png",
       "name": "Basic Data Structures",
       "para": "Access basic services and discounts with the Bronze Membership Card.",
       "price": 35000,
-      "credit-hour": 5
+      "creditHour": 5
     },
     {
       "id": 5,
-      "image": "https://cdn.bestflashfile.com/wp-content/uploads/2022/12/FRP-Bypass-APK-File.webp",
+      "image": "https://i.ibb.co/X3cZ4zp/Rectangle-2.png",
       "name": "Introduction to OOP Python",
       "para": "Share the perks of membership with your loved ones with the Family Membership Card.",
       "price": 19000,
-      "credit-hour": 5
+      "creditHour": 5
     },
     {
       "id": 6,
-      "image": "https://cdn.bestflashfile.com/wp-content/uploads/2022/12/FRP-Bypass-APK-File.webp",
+      "image": "https://i.ibb.co/gm2dwGK/Rectangle-2-5.png",
       "name": "Software Engineering",
       "para": "Exclusive benefits for students with the Student Membership Card.",
       "price": 23000,
-      "credit-hour": 2
+      "creditHour": 2
     },
     {
       "id": 7,
-      "image": "https://cdn.bestflashfile.com/wp-content/uploads/2022/12/FRP-Bypass-APK-File.webp",
+      "image": "https://i.ibb.co/6sZx40Z/Rectangle-3-1.png",
       "name": "AWS, Cloud Computing",
       "para": "Seniors can enjoy special discounts and services with the Senior Membership Card.",
       "price": 35000,
-      "credit-hour": 5
+      "creditHour": 5
     },
     {
       "id": 8,
-      "image": "https://cdn.bestflashfile.com/wp-content/uploads/2022/12/FRP-Bypass-APK-File.webp",
+      "image": "https://i.ibb.co/8jZfJ5z/Rectangle-2-1.png",
       "name": "Database (MySQL)",
       "para": "Enhance your business networking opportunities with the Business Membership Card.",
       "price": 19000,
-      "credit-hour": 5
+      "creditHour": 5
     },
     {
       "id": 9,
-      "image": "https://cdn.bestflashfile.com/wp-content/uploads/2022/12/FRP-Bypass-APK-File.webp",
+      "image": "https://i.ibb.co/RyfwcSF/Rectangle-2-6.png",
       "name": "Problem-Solving Part",
       "para": "Unlock thrilling adventures and experiences with the Adventure Membership Card.",
       "price": 23000,
-      "credit-hour": 2
+      "creditHour": 2
     }
   ]
