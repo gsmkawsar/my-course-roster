@@ -4,7 +4,7 @@
       "id": 1,
       "image": "https://i.ibb.co/SJLxJ38/Rectangle-2-2.png",
       "name": "Introduction to C Programming",
-      "para": "Enjoy exclusive access to our premium services with the Gold Membership Card.",
+      "description": "C is a procedural programming language initially developed by Dennis Ritchie in the year 1972 at Bell Laboratories.",
       "price": 15000,
       "creditHour": 1
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "image": "https://i.ibb.co/Nt0tbkJ/Rectangle-2-3.png",
       "name": "Introduction to Algorithms",
-      "para": "Experience the benefits of our Silver Membership Card, offering a range of perks.",
+      "description": "Introduction to Algorithms uniquely combines rigor and comprehensiveness. The book covers a broad range .",
       "price": 25000,
       "creditHour": 2
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "image": "https://i.ibb.co/hdMC2sB/Rectangle-2-4.png",
       "name": "Introduction to C++ for DSA",
-      "para": "Upgrade to the Platinum Membership Card for the ultimate VIP experience.",
+      "description": "Key concepts of C++ DSA include Arrays, Linked Lists, Stacks, Queues, Trees, and Graphs. Common Algorithms in C++.",
       "price": 10000,
       "creditHour": 10
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "image": "https://i.ibb.co/K5yrLqM/Rectangle-3.png",
       "name": "Basic Data Structures",
-      "para": "Access basic services and discounts with the Bronze Membership Card.",
+      "description": "Arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs are the basic data structures..",
       "price": 35000,
       "creditHour": 5
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "image": "https://i.ibb.co/X3cZ4zp/Rectangle-2.png",
       "name": "Introduction to OOP Python",
-      "para": "Share the perks of membership with your loved ones with the Family Membership Card.",
+      "description": "In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming.",
       "price": 19000,
       "creditHour": 5
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "image": "https://i.ibb.co/gm2dwGK/Rectangle-2-5.png",
       "name": "Software Engineering",
-      "para": "Exclusive benefits for students with the Student Membership Card.",
+      "description": "Software engineering is the branch of computer science that deals with the design, development, testing.",
       "price": 23000,
       "creditHour": 2
     },
@@ -52,7 +52,7 @@
       "id": 7,
       "image": "https://i.ibb.co/6sZx40Z/Rectangle-3-1.png",
       "name": "AWS, Cloud Computing",
-      "para": "Seniors can enjoy special discounts and services with the Senior Membership Card.",
+      "description": "Deploy Secure, Reliable, & Scalable Websites, Apps or Processes with Free Cloud Computing. Access Free AWS Cloud Servers. Global Instance.",
       "price": 35000,
       "creditHour": 5
     },
@@ -60,7 +60,7 @@
       "id": 8,
       "image": "https://i.ibb.co/8jZfJ5z/Rectangle-2-1.png",
       "name": "Database (MySQL)",
-      "para": "Enhance your business networking opportunities with the Business Membership Card.",
+      "description": "Hosted MySQL Databases with Self Deployment and Management Panels & 24x7 Technical Support. 1-Click Install (MySQL 5.7 / 8.0), Dynamic Scaling.",
       "price": 19000,
       "creditHour": 5
     },
@@ -68,7 +68,7 @@
       "id": 9,
       "image": "https://i.ibb.co/RyfwcSF/Rectangle-2-6.png",
       "name": "Problem-Solving Part",
-      "para": "Unlock thrilling adventures and experiences with the Adventure Membership Card.",
+      "description": "Problem solving is the act of defining a problem; determining the cause of the problem; identifying, prioritizing, and selecting alternatives for a solution.",
       "price": 23000,
       "creditHour": 2
     }

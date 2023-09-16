@@ -9,6 +9,7 @@ const Home = () => {
     const [bookMarks, setBookmarks] = useState([]);
     const [totalHour, setTotalHour] = useState(0);
     const [dueHour, setDueHour] = useState(0)
+    const [totalPrice, setTotalPrice] = useState(0)
 
 
 
@@ -18,13 +19,16 @@ const Home = () => {
         const resultFind = bookMarks.find(item => item.id == card.id);
 
         let hour = card.creditHour;
+        let totalPrices = card.price;
         if(resultFind){ 
           return  toast("already Select !")
         }
         else{
             bookMarks.forEach(item => {
                 hour = hour + item.creditHour;
+                totalPrices = totalPrices + item.price;
             });
+
             const totalDueHour = 20 - hour;
 
             if(hour > 20){
@@ -32,6 +36,7 @@ const Home = () => {
             }
             setDueHour(totalDueHour);
             setTotalHour(hour);
+            setTotalPrice(totalPrices);
 
             setBookmarks([...bookMarks, card]);
         }
@@ -48,10 +53,10 @@ const Home = () => {
           </div>
           <div className='w-1/4'>
            <Course 
+           totalPrice={totalPrice}
            bookMarks={bookMarks}
            totalHour={totalHour}
            dueHour={dueHour}
-
            ></Course>
           </div>
       </main>
