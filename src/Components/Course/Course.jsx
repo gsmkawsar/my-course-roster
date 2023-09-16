@@ -1,11 +1,17 @@
 import BookMark from "../BookMark/BookMark";
-
+import { ToastContainer } from "react-toastify";
 
 const Course = ({bookMarks , dueHour, totalHour}) => {
 
 
     return (
+        
         <div className="ml-7">
+
+            <div className="f">
+            <ToastContainer />
+            </div>
+
             <h2 className="text-1xl font-bold py-4">Credit Hour Remaining {dueHour} hr</h2>
             <hr />
             <h2 className="text-1xl font-bold py-4">Course Name</h2>

@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Card from './Card/Card';
 import Course from './Course/Course';
+import {toast}  from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Home = () => {
@@ -11,20 +13,22 @@ const Home = () => {
 
 
 
-    const handelSelect = (card) =>{
+    const handelSelect = (card) => {
+        
         const resultFind = bookMarks.find(item => item.id == card.id);
 
         let hour = card.creditHour;
-        if(resultFind){
-          return  alert("All Ready Add")
-        }else{
+        if(resultFind){ 
+          return  toast("already Select !")
+        }
+        else{
             bookMarks.forEach(item => {
                 hour = hour + item.creditHour;
             });
             const totalDueHour = 20 - hour;
 
             if(hour > 20){
-              return  alert ('ok')
+              return  toast ('Credit Over')
             }
             setDueHour(totalDueHour);
             setTotalHour(hour);
@@ -38,11 +42,11 @@ const Home = () => {
         <div>
        <h1 className='text-3xl text-center font-bold my-6'>Course Registration</h1>
       <main className='flex justify-around w-10/12 m-auto'>
-        <div className='w-2/3 '>
+        <div className='w-3/4 '>
             <Card handelSelect={handelSelect}
             ></Card> 
           </div>
-          <div className='w-1/3'>
+          <div className='w-1/4'>
            <Course 
            bookMarks={bookMarks}
            totalHour={totalHour}
